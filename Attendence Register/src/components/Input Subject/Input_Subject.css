@@ -1,0 +1,11 @@
+.add-subject {
+  @apply flex justify-center items-center h-9 m-8;
+}
+
+.add-subject-name {
+  @apply w-2/6 bg-[#003C43] h-8 px-9 text-white font-bold outline-none rounded-l-3xl;
+}
+
+.button{
+    @apply h-8 w-8 hover:cursor-pointer bg-[#003C43] flex justify-center items-center rounded-r-3xl;
+}

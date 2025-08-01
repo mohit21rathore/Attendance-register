@@ -1,0 +1,23 @@
+#root {
+  @apply bg-[#003C43] min-h-screen w-screen p-6;
+}
+
+.main-container {
+  @apply p-6 w-11/12 mx-auto bg-[#77B0AA] rounded-3xl;
+}
+
+.heading {
+  @apply text-white font-bold sm:text-4xl text-center text-2xl;
+}
+
+.subject {
+  @apply flex flex-col justify-center items-center m-6 bg-[#77B0AA] rounded-3xl;
+}
+
+.subject-name {
+  @apply font-bold h-8 flex justify-center items-center w-full rounded-t-3xl text-white bg-[#003C43] text-lg ;
+}
+
+.attendence {
+  @apply font-bold h-8 flex justify-center items-center text-white;
+}
